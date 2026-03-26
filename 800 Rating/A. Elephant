@@ -1,0 +1,17 @@
+// Problem: A. Elephant
+// Rating: 800
+
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main() 
+{
+    long long n;
+    cin>>n;
+    
+  cout<<(n+4)/5;
+    
+ 
+    
+    return 0;
+}
