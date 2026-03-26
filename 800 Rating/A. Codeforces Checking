@@ -1,0 +1,25 @@
+// Problem: A. Codeforces Checking
+// Rating: 800
+
+#include <bits/stdc++.h>
+#include<cstring>
+#include<vector>
+using namespace std;
+ 
+int main() 
+{ 
+   
+   string s ="codefrs";
+   int t;
+   cin>>t;
+   
+   while(t--)
+   {
+     char c;
+     cin>>c;
+     
+     cout<<(s.find(c)!=string::npos? "YES\n":"NO\n");
+   }
+   
+   
+}
