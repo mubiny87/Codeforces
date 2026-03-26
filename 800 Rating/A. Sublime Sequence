@@ -1,0 +1,24 @@
+// Problem: A. Sublime Sequence
+// Rating: 800
+
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main() 
+{     
+  int n,c,t,i;
+  cin>>n;
+  
+  for(i=0;i<n;i++)
+  {
+    cin>>t>>c;
+    if(c%2==0)
+    cout<<"0\n";
+    else
+    cout<<t<<"\n";
+    
+  }
+  
+  
+  
+} 
