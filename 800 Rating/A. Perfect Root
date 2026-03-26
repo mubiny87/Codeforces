@@ -1,0 +1,26 @@
+// Problem: A. Perfect Root
+// Rating: 800
+
+#include <iostream>
+using namespace std;
+ 
+int main() 
+{
+    int t;
+    cin>>t;
+    
+  int x,i;
+  
+    
+    while(t--)
+    {
+      cin>>x;
+      for(i=1;i<x+1;i++)
+      {
+        cout<<" "<<i<<" ";
+      }
+      cout<<endl;
+    }
+    
+    return 0;
+}
