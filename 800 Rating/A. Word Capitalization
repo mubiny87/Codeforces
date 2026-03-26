@@ -1,0 +1,18 @@
+// Problem: A. Word Capitalization
+// Rating: 800
+
+#include <bits/stdc++.h>
+#include<cstring>
+using namespace std;
+ 
+int main() 
+{
+    string a;
+    cin>>a;
+    
+    transform(a.begin(),a.begin()+1,a.begin(),::toupper);
+    
+    cout<<a;
+ 
+    return 0;
+}
