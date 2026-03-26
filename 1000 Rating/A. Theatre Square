@@ -1,0 +1,21 @@
+// Problem: A. Theatre Square
+// Rating: 800
+
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main() 
+{
+  long long l,b;
+  long long a,x,y;
+  
+  cin>>l>>b>>a;
+  
+  x=(l+a-1)/a;
+  y=(b+a-1)/a;
+  
+  cout<<x*y;
+  
+ 
+    return 0;
+}
