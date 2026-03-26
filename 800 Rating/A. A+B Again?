@@ -1,0 +1,24 @@
+//Problem: A. A+B Again?
+//Rating: 800
+
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main() 
+{     
+  int i,n,a,b=0;
+  cin>>n;
+  
+ 
+  
+  for(i=0;i<n;i++)
+  { 
+    cin>>a;
+    b= a/10 + a%10;
+    cout<<b<<"\n";
+    
+  }
+  
+  
+  
+}
