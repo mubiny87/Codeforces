@@ -1,0 +1,35 @@
+// Problem: A. Word
+// Rating: 800
+
+#include <bits/stdc++.h>
+#include<cstring>
+#include<vector>
+using namespace std;
+ 
+int main() 
+{
+  string s;
+  cin>>s;
+  
+  int up=0,lo=0;
+  
+  for(char c:s)
+  {
+    if (c>='A'&& c<='Z')
+    up++;
+    else
+    lo++;
+  }
+  
+  if(up>lo)
+  transform(s.begin(),s.end(),s.begin(),::toupper);
+  else
+  transform(s.begin(),s.end(),s.begin(),::tolower);
+  
+  cout<<s;
+  
+ 
+ 
+ 
+    return 0;
+}
