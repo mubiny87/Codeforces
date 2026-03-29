@@ -1,0 +1,34 @@
+// Problem: A. Helpful Maths
+// Rating: 800
+
+#include <bits/stdc++.h>
+#include<vector>
+#include<cstring>
+using namespace std;
+ 
+int main() 
+{
+    string s;
+    cin>>s;
+    vector<char>num;
+    
+    for(char c:s)
+    {
+      if(c!='+')
+      num.push_back(c);
+    }
+    
+    sort(num.begin(),num.end());
+    
+    for(int i=0;i<num.size();i++)
+    {
+      if(i)
+      cout<<"+";
+      cout<< num[i];
+    }
+    
+    
+ 
+      
+return 0;
+}
