@@ -1,0 +1,22 @@
+// Problem: A. Soldier and Bananas
+// Rating: 800
+
+#include <iostream>
+using namespace std;
+ 
+int main() 
+{
+    long long k,n,w,sum=0;
+    cin>>k>>n>>w;
+ 
+  for(int i=0;i<=w;i++)
+  {
+    sum+=k*i;
+    
+  }
+  if(sum>=n)
+  cout<<sum-n;
+  else
+  cout<<"0";
+    return 0;
+}
