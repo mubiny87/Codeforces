@@ -1,0 +1,26 @@
+// Problem: A. Translation
+// Rating: 800
+
+#include <bits/stdc++.h>
+#include <cstring>
+ 
+using namespace std;
+ 
+int main() 
+{
+    string s,t;
+    
+    cin>>s>>t;
+    
+  std::reverse(s.begin(),s.end());
+  
+  
+  if(s!=t)
+  {
+    cout<<"NO"<<endl;
+  }
+  else
+  cout<<"YES"<<endl;
+ 
+    return 0;
+}
